@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone shop</title>
+    <style>
+        a{
+            color: white        ;
+        }
+        p{
+            color: white;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .allContent{
+            background-color: whitesmoke;
+            max-width: 1349px;   
+            margin: 0 auto;
+        }
+        .header h1{
+            box-shadow: gray 2px 2px 2px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background: wheat;
+        }
+        .ourBestProduct h2{
+            padding-top: 20px;
+            margin-top: 30px;
+        }
+        .ourBestProduct img{
+            margin: 25px;
+        }
+        .nokia{
+            width: 150px;
+        }
+        .nokia2{
+            width: 265px;
+        }
+        .nokia3{
+            width: 152.5px;
+        }
+        .iphone{
+            width: 272px;
+        }
+        .samsung{
+            width: 239px;
+        }
+        .nokiaHover{
+            opacity: 0;
+            background-color: rgb(9, 8, 8,0.8);
+            transition-duration: 0.5s;
+        }
+        .nokia2Hover{
+            opacity: 0;
+            background-color: rgb(9, 8, 8,0.8);
+            transition-duration: 0.5s;
+        }
+        .nokia3Hover{
+            opacity: 0;
+            background-color: rgb(9, 8, 8,0.8);
+            transition-duration: 0.5s;
+        }
+        .iphoneHover{
+            opacity: 0;
+            background-color: rgb(9, 8, 8,0.8);
+            transition-duration: 0.5s;
+        }
+        .samsungHover{
+            opacity: 0;
+            background-color: rgb(9, 8, 8,0.8); 
+            transition-duration: 0.5s;
+        }
+        .nokiaHover:hover{
+            box-shadow: gray 2px 2px 2px;
+            opacity: 1;
+        }
+        .nokia2Hover:hover{
+            opacity: 1;
+            box-shadow: gray 2px 2px 2px;
+        }
+        .nokia3Hover:hover{
+            opacity: 1;
+            box-shadow: gray 2px 2px 2px;
+        }
+        .iphoneHover:hover{
+            opacity: 1;
+            box-shadow: gray 2px 2px 2px;
+        }
+        .samsungHover:hover{
+            opacity: 1;
+            box-shadow: gray 2px 2px 2px;
+        }
+        .footer{
+            background-color: wheat;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .javaScript{
+            position: relative;
+            right: 500px;
+            bottom: 150px;
+        }
+        .javaScript button{
+            width: 200px;
+        }
+        .darkMode{
+            background-color: black;
+        }
+        .makeItGreen{
+            color: green;
+        }
+    </style>
+</head>
+<body id="light">
+    <div class="header">
+        <h1>Mobiley Shop</h1>
+    </div>
+    <div class="allContent">
+        <div class="ourBestProduct">
+            <h2>Our Best products</h2>
+            <table>
+                <tr>
+                    <!--https://www.amazon.com/Nokia-Unlocked-Hotspot-Assistant-Charcoal/dp/B08SV2Y7J6/ref=sr_1_2?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682608&sprefix=nokia+9000%2Caps%2C164&sr=8-2-->
+                    <td><img class="nokia" src="https://cdn.discordapp.com/attachments/685210402577055758/963064168246804560/unknown.png">
+                        <div class="nokiaHover">
+                        <p>Nokia 6300 4G</p>
+                        <a href="https://www.amazon.com/Nokia-Unlocked-Hotspot-Assistant-Charcoal/dp/B08SV2Y7J6/ref=sr_1_2?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682608&sprefix=nokia+9000%2Caps%2C164&sr=8-2" target="_blank">Click for more info</a>
+                        </div></td>
+                    <!--https://www.amazon.com/Nokia-Unlocked-Worldwide-Cricket-Verizon/dp/B09G782SXL/ref=sr_1_3?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682908&sprefix=nokia+9000%2Caps%2C164&sr=8-3-->
+                    <td><img class="nokia2" src="https://cdn.discordapp.com/attachments/685210402577055758/963065078494658610/unknown.png">
+                        <div class="nokia2Hover">
+                        <p>Nokia 110 4G </p>
+                        <a href="https://www.amazon.com/Nokia-Unlocked-Worldwide-Cricket-Verizon/dp/B09G782SXL/ref=sr_1_3?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682908&sprefix=nokia+9000%2Caps%2C164&sr=8-3" target="_blank">Click for more info</a>
+                        </div></td>
+                    <!--https://www.amazon.com/Nokia-Unlocked-Cell-Phone-Black/dp/B08Q1YWQQ9/ref=sr_1_5?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682908&sprefix=nokia+9000%2Caps%2C164&sr=8-5-->
+                    <td><img class="nokia3" src="https://cdn.discordapp.com/attachments/685210402577055758/963066206145896528/unknown.png">
+                        <div class="nokia3Hover">
+                        <p>Nokia 225</p>
+                        <a href="https://www.amazon.com/Nokia-Unlocked-Cell-Phone-Black/dp/B08Q1YWQQ9/ref=sr_1_5?crid=3FNEH4F91FNAT&keywords=nokia+9000&qid=1649682908&sprefix=nokia+9000%2Caps%2C164&sr=8-5" target="_blank">Click for more info</a>
+                        </div></td>
+                    <!--https://www.amazon.com/Apple-iPhone-13-128GB-Blue/dp/B09LNX6KQS/ref=sr_1_1?crid=3W58T24M6DI2Z&keywords=iphone+13&qid=1649683347&sprefix=iphone+13+%2Caps%2C146&sr=8-1-->
+                    <td><img class="iphone" src="https://cdn.discordapp.com/attachments/685210402577055758/963066637798498324/unknown.png">
+                        <div class="iphoneHover">
+                        <p>Apple iPhone 13</p>
+                        <a href="https://www.amazon.com/Apple-iPhone-13-128GB-Blue/dp/B09LNX6KQS/ref=sr_1_1?crid=3W58T24M6DI2Z&keywords=iphone+13&qid=1649683347&sprefix=iphone+13+%2Caps%2C146&sr=8-1" target="_blank">Click for more info</a>
+                        </div></td>
+                    <!--https://www.amazon.com/SAMSUNG-Smartphone-Unlocked-Brightest-Processor/dp/B09MVZSW5V/ref=sr_1_1_sspa?crid=11A1A2BHALK7R&keywords=samsung+galaxy+s22&qid=1649683469&sprefix=sam%2Caps%2C158&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOVFFVDJDOFNOWEpDJmVuY3J5cHRlZElkPUExMDM5NDgyMkFETTgzSllMTkNRUSZlbmNyeXB0ZWRBZElkPUEwOTA3OTY4MjAxSUNDTDBQS0w2SCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=-->
+                    <td><img class="samsung" src="https://cdn.discordapp.com/attachments/685210402577055758/963067093270548550/unknown.png">
+                        <div class="samsungHover">
+                        <p>SAMSUNG Galaxy S22 Ultra</p>
+                        <a href="https://www.amazon.com/SAMSUNG-Smartphone-Unlocked-Brightest-Processor/dp/B09MVZSW5V/ref=sr_1_1_sspa?crid=11A1A2BHALK7R&keywords=samsung+galaxy+s22&qid=1649683469&sprefix=sam%2Caps%2C158&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOVFFVDJDOFNOWEpDJmVuY3J5cHRlZElkPUExMDM5NDgyMkFETTgzSllMTkNRUSZlbmNyeXB0ZWRBZElkPUEwOTA3OTY4MjAxSUNDTDBQS0w2SCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" target="_blank">Click for more info</a>
+                        </div></td>
+                </tr>
+            </table>
+        </div>
+        <div class="inputMessage">
+            <h3>Put a little comment :)</h3>
+            <input type="text" name="Name" placeholder="Name" /><br/>
+            <input type="text" name="Email" placeholder="Email"/><br/>
+            <textarea name="text" placeholder="Message"></textarea><br/>
+            <input type="submit" name="Submit" value="Send"/>
+        </div>
+        <div class="javaScript">
+            <button onclick="makeChangeh1()" name="The rael Heading">The real Heading</button><br/>
+            <button onclick="darkMode()" name="DarkMode">Dark mode</button><br/>
+            <button onclick="fakeAddress()" name="Fake Adress">Fake the address</button><br/>
+            <button onclick="makeGreen()" name="Green links">Make the more info Green</button>
+        </div>
+        <div class="footer">
+            <h1>Mobiley Shop</h1>
+            <p id="Address">Address : Street:  Rue du Presbytère 9</p>
+        </div>
+    </div>
+    <script>
+        function makeChangeh1(){
+        let h1Nodes = document.getElementsByTagName("h1");
+        for(let i=0; i<h1Nodes.length;i++){
+           let h1Node = h1Nodes[i];
+           h1Node.innerHTML= "Scammed";
+        }
+    }
+    function darkMode(){
+        let bodyNode = document.getElementById("light");
+
+        bodyNode.classList.toggle("darkMode");
+    }
+    function fakeAddress(){
+        let AddressNode = document.getElementById('Address');
+        AddressNode.innerHTML = "The fake Address : Your house";
+    }
+    function makeGreen(){
+        let greenNodes = document.getElementsByTagName('a');
+        for(let i=0 ; i<greenNodes.length; i++){
+            let greenNode = greenNodes[i];
+            greenNode.classList.add('makeItGreen')
+        }
+    }
+    </script>
+</body>
+</html>
